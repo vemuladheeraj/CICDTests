@@ -17,6 +17,7 @@ namespace CICDTest.Helpers
                 bool supportedBrowser = false;
                 string setting = null;
                 setting = ConfigurationManager.AppSettings["browser"];
+                //Testing
                 supportedBrowser = Enum.TryParse(setting, out BrowserType browserType);
                 if (supportedBrowser)
                 {
@@ -71,7 +72,6 @@ namespace CICDTest.Helpers
             get
             {
                 string setting = null;
-
                 setting = ConfigurationManager.AppSettings["PathToChromeDriverDirectory"];
 
 
@@ -80,7 +80,6 @@ namespace CICDTest.Helpers
                 {
                     return string.Empty;
                 }
-
                 return setting;
             }
         }

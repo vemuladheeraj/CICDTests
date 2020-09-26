@@ -111,12 +111,12 @@ namespace CICDTest.Helpers
                     //try
                     //{
                     //    // driver = new RemoteWebDriver(new Uri("http://192.168.1.102:4444/wd/hub"), ChromeOptions);
-                      
+
                     //    driver = new RemoteWebDriver(new Uri("http://192.168.0.102:4444/wd/hub"), ChromeOptions.ToCapabilities());
 
 
 
-                  
+
                     //}
                     //catch (Exception t)
                     //{
